@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 *{
     margin:0;
 }
@@ -16,6 +17,17 @@ header{
     width: 15%;
     display: inline;
 }
+.redes{
+    padding-right:6%;
+    width:20px;
+}
+#logo_texto{
+    display: inline;
+    margin-left:2%;
+    padding-top:20%;
+    font-family: 'Varela Round', sans-serif;
+}
+
 #logo1{
     width: 25%;
     margin-top: 2%;
@@ -30,7 +42,7 @@ h1{
     height: 450px;
 }
 
-#titulo{    
+.titulo{    
     font-family: 'Forum', cursive;
     color:white;
     text-align: center;
@@ -38,15 +50,17 @@ h1{
     padding-top: 2%;
     
     }
-    #subtitulo{
+    .links{
+         font-family: 'Aboreto', cursive;
+        color:white;
+    }
+    .subtitulo{
   font-family: 'Aboreto', cursive;
         color:white;
         font-size: x-large;
         animation: subir 2s ease-in-out infinite;
-
-
     }
-    p{
+    .paragrafos{
         margin-left: 15%;
         font-family: 'Montserrat', sans-serif;
         font-size: large;
