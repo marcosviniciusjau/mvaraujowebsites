@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+#logo{
+    width: 15%;
+    display: inline;
+}
+
+.titulo_div{
+    display:flex;
+    justify-content:center;
+    margin-bottom:-60px;
+}
+
+.titulo{    
+    font-family: 'Forum', cursive;
+    color:white;
+    text-align: center;
+}
+
+.links{
+    font-family: 'Arvo', serif;
+    color:white;
+}
+
+.subtitulo{
+    padding-bottom: 5%;
+    display: flex;
+    font-family: 'Aboreto', cursive;
+    color:white;
+    font-size: x-large;
+    animation: subir 2s ease-in-out infinite;
+}
+
+.paragrafos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color:white;
+    animation: subir 2s ease-in-out forwards;
+}
+    
+#divulgar{
+    background-color: #cd6025;
+    display: inline-block;
+}
+
+#divulgar_img{
+    width: 40%;
+}
+
+#logo_texto{
+    display: inline;
+    margin-left:2%;
+    padding-top:20%;
+    font-family: 'Varela Round', sans-serif;
+}
+.redes{
+    width:20px;
+}
+
+@media(max-width: 768px){
+    #projetos{
+    background-color: #510986;
+    margin-bottom:-90px;
+}
+
+.arquitetura{
+    margin-bottom:-90px;
+}
+.videos{
+    width:410px;
+}
+}
+@media(min-width: 768px){
+#projetos{
+    background-color: #510986;
+    margin-bottom:-90px;
+}
+
+.arquitetura{
+    margin-top:30px;
+}
+
+.videos{
+    width:500px;
+}
+
+.titulo{    
+    font-family: 'Forum', cursive;
+    color:white;
+    text-align: center;
+    padding-top: 2%;
+    }
+
+.links{
+    font-family: 'Arvo', serif;
+    color:white;
+}
+
+.subtitulo{
+    padding-left: 15%;
+    padding-bottom: 5%;
+    display: flex;
+    font-family: 'Aboreto', cursive;
+    color:white;
+    font-size: x-large;
+    animation: subir 2s ease-in-out infinite;
+}
+
+.paragrafos{
+    margin-left: 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color:white;
+    animation: subir 2s ease-in-out forwards;
+}
+    
+#divulgar{
+    background-color: #cd6025;
+    display: inline-block;
+}
+
+#divulgar_img{
+    width: 40%;
+}
+}
