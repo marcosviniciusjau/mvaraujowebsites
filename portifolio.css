@@ -10,6 +10,12 @@
     display: inline;
 }
 
+#aventuras{
+    width:50%;
+    margin-top: -5%;
+    margin-left: 20%;
+}
+
 .titulo_div{
     display:flex;
     justify-content:center;
@@ -63,25 +69,30 @@
 }
 
 @media(max-width: 768px){
-    #projetos{
-    background-color: #510986;
-    margin-bottom:-90px;
+.projetos{
+    margin-top:-120px;
+}
+.video_div{
+    margin-bottom:-120px;
+    margin-top:50px;
+}
+.arquitetura{
+    margin-left:2%;
+    margin-bottom:-120px;
 }
 
-.arquitetura{
-    margin-bottom:-90px;
-}
 .videos{
-    width:100%;
+    width:95%;
 }
 }
+
 @media(min-width: 768px){
-#projetos{
-    background-color: #510986;
-    margin-bottom:-90px;
+.projetos{
+    margin-bottom:-120px;
 }
 
 .arquitetura{
+    margin-left:2%;
     margin-top:30px;
 }
 
@@ -128,21 +139,16 @@
     width: 40%;
 }
 }
-@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
 header{
     display: inline-block;
     background-color: #510986;
 }
+
 body{
-    
     background-color: #510986;
 }
+
 #navbar{
     background-color: #510986;
     justify-content: space-between;
@@ -171,9 +177,13 @@ body{
     color:white;
 }
 
-#projetos{
+#ingles_aqui{
     padding-left:2%;
-    background-color: #510986;
+    margin-bottom:-90px;
+}
+
+.projetos{
+    padding-left:2%;
 }
 
 .subtitulo{
@@ -201,21 +211,22 @@ body{
     width: 40%;
 }
 
-@media(max-width:500px){
+@media(max-width:768px){
     #logo_texto{
     display: inline;
     font-size:small;
     margin-left:4%;
     padding-top:20%;
     font-family: 'Varela Round', sans-serif;
-
 }
+
 #dev{
     width: 100%;
 }
+
 #logo_rodape{
-       width: 50px;
-       padding-left:3%;
+    width: 50px;
+    padding-left:3%;
 }
 }
 
@@ -231,7 +242,6 @@ body{
        padding-left:5%;
 }
 }
-
 
 #logo1{
     width: 25%;
