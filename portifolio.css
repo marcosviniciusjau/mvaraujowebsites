@@ -16,13 +16,13 @@
     margin-left: 20%;
 }
 
-.titulo_div{
+.title_div{
     display:flex;
     justify-content:center;
     margin-bottom:-60px;
 }
 
-.titulo{    
+.title{    
     font-family: 'Forum', cursive;
     color:white;
     text-align: center;
@@ -33,7 +33,7 @@
     color:white;
 }
 
-.subtitulo{
+.subtitle{
     padding-bottom: 5%;
     display: flex;
     font-family: 'Aboreto', cursive;
@@ -69,7 +69,7 @@
 }
 
 @media(max-width: 768px){
-.projetos{
+.projects{
     margin-top:-120px;
 }
 .redes{
@@ -111,7 +111,7 @@ ion-icon {
     color: white;
   }
 @media(min-width: 768px){
-.projetos{
+.projects{
     margin-bottom:-120px;
 }
 .redes{
@@ -126,7 +126,7 @@ ion-icon {
     width:500px;
 }
 
-.titulo{    
+.title{    
     font-family: 'Forum', cursive;
     color:white;
     text-align: center;
@@ -138,7 +138,7 @@ ion-icon {
     color:white;
 }
 
-.subtitulo{
+.subtitle{
     padding-left: 15%;
     padding-bottom: 5%;
     display: flex;
@@ -190,7 +190,7 @@ body{
 
 
 
-.titulo{    
+.title{    
     font-family: 'Forum', cursive;
     color:white;
     text-align: center;
@@ -206,11 +206,11 @@ body{
     margin-bottom:-90px;
 }
 
-.projetos{
+.projects{
     padding-left:2%;
 }
 
-.subtitulo{
+.subtitle{
     padding-bottom: 5%;
     display: flex;
     font-family: 'Aboreto', cursive;

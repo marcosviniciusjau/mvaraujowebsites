@@ -31,19 +31,12 @@ body{
     margin-bottom:-120px
 }
 
-.titulo{    
-    font-family: 'Forum', cursive;
-    color:white;
-    text-align: center;
-    padding-left:5%;
-}
-
 .links{
     font-family: 'Arvo', serif;
     color:white;
 }
 
-.subtitulo{
+.subtitle{
     padding-bottom: 5%;
     display: flex;
     font-family: 'Aboreto', cursive;
@@ -52,7 +45,7 @@ body{
     animation: subir 2s ease-in-out infinite;
 }
 
-.paragrafos{
+.paragraphs{
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     color:white;
