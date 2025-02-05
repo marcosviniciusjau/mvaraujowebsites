@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+#logo{
+    width: 15%;
+    display: inline;
+}
+
+#aventuras{
+    width:50%;
+    margin-top: -5%;
+    margin-left: 20%;
+}
+
+.title_div{
+    display:flex;
+    justify-content:center;
+    margin-bottom:-60px;
+}
+
+.title{    
+    font-family: 'Forum', cursive;
+    color:white;
+    text-align: center;
+}
+
+.links{
+    font-family: 'Arvo', serif;
+    color:white;
+}
+
+.subtitle{
+    padding-bottom: 5%;
+    display: flex;
+    font-family: 'Aboreto', cursive;
+    color:white;
+    font-size: x-large;
+    animation: subir 2s ease-in-out infinite;
+}
+
+.paragrafos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color:white;
+    animation: subir 2s ease-in-out forwards;
+}
+    
+#divulgar{
+    background-color: #cd6025;
+    display: inline-block;
+}
+
+#divulgar_img{
+    width: 40%;
+}
+
+#logo_texto{
+    display: inline;
+    margin-left:2%;
+    padding-top:20%;
+    font-family: 'Varela Round', sans-serif;
+}
+.redes{
+    width:30px;
+}
+
+@media(max-width: 768px){
+.projects{
+    margin-top:-120px;
+}
+.redes{
+    font-size:20px;
+}
+.video_div{
+    margin-bottom:-120px;
+    margin-top:50px;
+}
+.arquitetura{
+    margin-left:2%;
+    margin-bottom:-120px;
+}
+#logo_rodape{
+    width: 50px;
+    margin-left:2%;
+    padding:2%;
+}
+
+#logo_texto{
+    display: inline;
+    font-size:small;
+    margin-left:4%;
+    padding-top:20%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.social{
+    padding-left:5%;
+    margin-top:2%;
+}
+
+.videos{
+    width:95%;
+}
+}
+ion-icon {
+    color: white;
+  }
+@media(min-width: 768px){
+.projects{
+    margin-bottom:-120px;
+}
+.redes{
+    font-size:30px;
+}
+.arquitetura{
+    margin-left:2%;
+    margin-top:30px;
+}
+
+.videos{
+    width:500px;
+}
+
+.title{    
+    font-family: 'Forum', cursive;
+    color:white;
+    text-align: center;
+    padding-top: 2%;
+    }
+
+.links{
+    font-family: 'Arvo', serif;
+    color:white;
+}
+
+.subtitle{
+    padding-left: 15%;
+    padding-bottom: 5%;
+    display: flex;
+    font-family: 'Aboreto', cursive;
+    color:white;
+    font-size: x-large;
+    animation: subir 2s ease-in-out infinite;
+}
+
+.paragrafos{
+    margin-left: 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color:white;
+    animation: subir 2s ease-in-out forwards;
+}
+    
+#divulgar{
+    background-color: #cd6025;
+    display: inline-block;
+}
+
+#divulgar_img{
+    width: 40%;
+}
+}
+
+header{
+    display: inline-block;
+    background-color: #510986;
+}
+
+body{
+    background-color: #510986;
+}
+
+#navbar{
+    background-color: #510986;
+    justify-content: space-between;
+}
+
+#rodape{
+    background-color: #510986;
+}
+
+#logo{
+       width: 100px;
+}
+
+
+
+.title{    
+    font-family: 'Forum', cursive;
+    color:white;
+    text-align: center;
+}
+
+.links{
+    font-family: 'Arvo', serif;
+    color:white;
+}
+
+#ingles_aqui{
+    padding-left:2%;
+    margin-bottom:-90px;
+}
+
+.projects{
+    padding-left:2%;
+}
+
+.subtitle{
+    padding-bottom: 5%;
+    display: flex;
+    font-family: 'Aboreto', cursive;
+    color:white;
+    font-size: x-large;
+    animation: subir 2s ease-in-out infinite;
+}
+
+.paragrafos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color:white;
+    animation: subir 2s ease-in-out forwards;
+}
+    
+#divulgar{
+    background-color: #cd6025;
+    display: inline-block;
+}
+
+#divulgar_img{
+    width: 40%;
+}
+
+@media(max-width:768px){
+    #logo_texto{
+    display: inline;
+    font-size:small;
+    margin-left:4%;
+    padding-top:20%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#dev{
+    width: 100%;
+}
+
+#logo_rodape{
+    width: 50px;
+    padding-left:3%;
+}
+}
+
+@media(min-width:768px){
+    #logo_texto{
+    display: inline;
+    margin-left:2%;
+    padding-top:20%;
+    font-family: 'Varela Round', sans-serif;
+}
+#logo_rodape{
+       width: 100px;
+       padding-left:5%;
+}
+}
+
+#logo1{
+    width: 25%;
+    margin-top: 2%;
+}
+
+#dev{
+    max-width: 100%;
+}
+
+.lead{
+    margin:5%;
+}
+
+.thumbnail { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+  } 
+  /*change the number below to scale to the appropriate size*/ 
+  .thumbnail:hover { 
+    transform: scale(1.1); 
+  }
+  
