@@ -16,6 +16,53 @@
     margin-left: 20%;
 }
 
+#pastelaria{
+    width:95%;
+    margin-top: -5%;
+    margin-left: 40%;
+}
+
+.pastel_subtitle{
+    padding-bottom: 5%;
+    display: flex;
+    font-family: 'Aboreto', cursive;
+    color:white;
+    font-size: x-large;
+    animation: subir 2s ease-in-out infinite;
+    margin-left:36%;
+}
+
+.pastel_paragrafos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color:white;
+    animation: subir 2s ease-in-out forwards;
+    margin-left:36%;
+}
+
+.volante_subtitle{
+    padding-bottom: 5%;
+    display: flex;
+    font-family: 'Aboreto', cursive;
+    color:white;
+    font-size: x-large;
+    animation: subir 2s ease-in-out infinite;
+    margin-left:30%;
+}
+
+.volante_paragrafos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color:white;
+    animation: subir 2s ease-in-out forwards;
+    margin-left:30%;
+}
+
+#volante{
+    width:80%;
+    margin-top: -5%;
+    margin-left: 30%;
+}
 .title_div{
     display:flex;
     justify-content:center;
