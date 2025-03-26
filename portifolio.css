@@ -9,6 +9,17 @@
   width: 15%;
   display: inline;
 }
+#petshop {
+  width: 60%;
+  margin-top: -5%;
+  @media (min-width: 768px) {
+    margin-left: 30%;
+  }
+  @media (max-width: 768px) {
+    margin-left: 20%;
+    width: 50%;
+  }
+}
 #pizza {
   width: 75%;
   margin-top: -5%;
@@ -71,7 +82,24 @@
   animation: subir 2s ease-in-out infinite;
   margin-left: 30%;
 }
-
+.petshop_subtitle {
+  padding-bottom: 5%;
+  display: flex;
+  font-family: "Aboreto", cursive;
+  color: white;
+  font-size: x-large;
+  animation: subir 2s ease-in-out infinite;
+  margin-left: 25%;
+}
+.petshop_paragrafos {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  color: white;
+  animation: subir 2s ease-in-out forwards;
+  @media (min-width: 768px) {
+    margin-left: 25%;
+  }
+}
 .volante_paragrafos {
   font-family: "Montserrat", sans-serif;
   font-size: large;
