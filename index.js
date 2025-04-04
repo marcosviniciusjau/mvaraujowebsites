@@ -1,4 +1,3 @@
-console.log("eu to aqui");
 const privacyBanner = document.querySelector(".privacy-banner");
 
 privacyBanner.addEventListener("click", () => {
