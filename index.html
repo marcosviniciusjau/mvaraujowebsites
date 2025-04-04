@@ -12,6 +12,8 @@
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
+    
+    <script defer src="/index.js"></script>
     <script defer src="/_vercel/insights/script.js"></script>
     <link rel="stylesheet" href="index.css">
    </head>
@@ -43,8 +45,12 @@
     </div>
   </nav>
    
-
+  <div class="privacy-banner" id="privacy-banner">
+    Este site utiliza o Vercel Web Analytics para melhorar sua experiência. Nenhum dado pessoal identificável é coletado. <a href="https://vercel.com/docs/analytics" style="text-decoration: none;">Saiba mais sobre a Política de Privacidade.</a>
+    <button id="accept-privacy" class="btn btn-light btn-sm ms-3">Aceitar</button>
+  </div>
 <body>
+
     <div>
     <img src="./img/background.png" id="dev">
    </div>
@@ -64,7 +70,7 @@ A MV Araújo Websites cria sites, apps e sistemas personalizados para atender à
      <img src="./img/tech.png" class="disclose_img">
    </div>
    </div>
-  
+   
       <div class="d-md-flex flex-md-equal" id="projetos">
     <div class="my-5 py-5">
         <h1 class="subtitle">podemos ajudá-lo a criar uma presença online que realmente se destaque.</h1>
